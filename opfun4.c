@@ -23,8 +23,8 @@ void rotl(stack_t **stack, unsigned int line_number)
 
 /**
  * rotr - s
- * @stack: Double linked list
- * @line_number: File line execution
+ * @stack: Doubly linked 
+ * @line_number: line File execution
  */
 void rotr(stack_t **stack, unsigned int line_number)
 {
@@ -49,8 +49,8 @@ void rotr(stack_t **stack, unsigned int line_number)
 
 /**
  * stack - s
- * @stack: Double linked list
- * @line_number: File line execution
+ * @stack: Double  list
+ * @line_number: File line 
  */
 void stack(stack_t **stack, unsigned int line_number)
 {
@@ -62,8 +62,8 @@ void stack(stack_t **stack, unsigned int line_number)
 
 /**
  * queue - s
- * @stack: Double linked list
- * @line_number: File line execution
+ * @stack: linked list
+ * @line_number: line execution
  */
 void queue(stack_t **stack, unsigned int line_number)
 {

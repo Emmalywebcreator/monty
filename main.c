@@ -12,14 +12,14 @@ int main(int ac, char **av)
 {
 	char *opcode;
 
+	if (start_vars(&var) != 0)
+		return (EXIT_FAILURE);
+
 	if (ac != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
 		return (EXIT_FAILURE);
 	}
-
-	if (start_vars(&var) != 0)
-		return (EXIT_FAILURE);
 
 	var.file = fopen(av[1], "r");
 	if (!var.file)
